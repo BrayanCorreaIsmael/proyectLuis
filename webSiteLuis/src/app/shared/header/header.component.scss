@@ -1,0 +1,30 @@
+@use '../../app.component.scss' as *;
+h1 {
+    color: $black;
+    font-style: italic;
+}
+a {
+    color: $black;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.container {
+    max-width: 120rem;
+    margin: 0 auto;   
+}
+.header__container {
+    background-color: $secondary-color;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+    // &__logo {
+    // }
+    &__nav {
+        display: flex;
+        gap: 0.3rem;
+    }
+}

@@ -1,0 +1,46 @@
+* , *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+// variables
+$primary-color: #89023e;
+$secondary-color: #ffd9da;
+$accent-color: #ea638c;
+$background-color: #1b2021;
+$three-color: #22429b;
+$white: #eee;
+$black: #111;
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 3.2rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+h5 {
+    font-size: 1.6rem;
+}
+h6 {
+    font-size: 1.4rem;
+}
+
